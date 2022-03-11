@@ -1,0 +1,42 @@
+* {
+    font-family: "Roboto", sans-serif
+}
+h1:hover {
+    color:aqua;
+    background-color:crimson;
+    font-size: 30px;
+    font-weight: 900;
+    font-style: italic;
+    text-align: center;
+    text-decoration: overline;
+    text-transform: uppercase;
+}
+.header {
+    background-color: lime;
+}
+.body {
+    background-color: yellow;
+}
+
+/* Media Querry */
+
+@media (max-width: 500px) {
+    body {
+        background-color: green;
+    }
+    h1 {
+        font-size: 30px;
+    }
+}
+
+/* @media (max-width: 800px) {
+    body {
+        background-color: yellow;
+    }
+}
+
+@media (min-width: 801px) {
+    body {
+        background-color: crimson;
+    }
+}  */
